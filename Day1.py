@@ -10,3 +10,5 @@ data_str='->'.join(datas)
 new_list=data_str.split('>>')
 print(datas)
 print(new_list)
+
+print(8%3)
