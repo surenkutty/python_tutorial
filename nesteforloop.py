@@ -67,3 +67,35 @@ x=list(name1)
 y=list(name2)
 for x in y:
     print( x)
+
+N = "Welgo"
+Y = "go"
+
+# Convert strings to lists
+list_N = set(N )
+list_Y = set(Y)
+
+result=list_N.difference(list_Y)
+print(result)
+n=5
+for i in range(5):
+    for j in range(i,n):
+        print('=' ,end=" ")
+    for j in range(i+1):
+        print("*",end=' ')
+    print()
+'''
+= = = = = *
+= = = = * *
+= = = * * *
+= = * * * *
+= * * * * *
+'''
+
+h=5
+for i in range(h):
+    for j in range(i+1):
+        print(j,end=' ')
+    for j in range(i,h):
+        print('*',end=' ')
+    print()
