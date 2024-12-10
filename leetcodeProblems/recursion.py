@@ -16,5 +16,5 @@ def fibonaci(n):
     elif n==1 or n==2:
         return 1
     return fibonaci(n-1)+fibonaci(n-2)
-print(fibonaci(3))
+print(fibonaci(5))
 # 12,9,8,3
