@@ -17,4 +17,11 @@ def minMax(arr):
 
 # Example usage
 arr = [1, 3, 5, 7, 9]
-minMax(arr)
+# minMax(arr)
+
+
+x=(input("Enter the input: "))
+
+txt=list(map(int,x.rstrip().split()))
+
+print(txt)
