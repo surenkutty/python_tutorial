@@ -1,4 +1,4 @@
-title:Dsa concepts
+ertitle:Dsa concepts
  1.List
      ->integer,string,etc
      ->insert()
